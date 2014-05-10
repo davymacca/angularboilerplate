@@ -1,0 +1,16 @@
+{
+  "name": "angularboilerplate",
+  "version": "0.0.1",
+  "authors": [
+    "David McGeorge @davymacca"
+  ],
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "angular": "~1.2.16",
+    "jquery": "~2.1.1",
+    "fastclick": "~1.0.1",
+    "angular-route": "~1.2.16",
+    "angular-sanitize": "~1.2.16"
+  }
+}

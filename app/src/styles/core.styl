@@ -1,0 +1,55 @@
+/*
+    Author: Davy (pronounced “Davv-ee”) - @davymacca - 10/05/2014
+
+    Styles are based on Jonathan Snook's SMACSS (pronounced “smacks”) style guide - http://smacss.com
+
+
+    Development:
+        Lots of spacing, readability above file compression
+        Multi-line rules - better for git diff etc
+        Suggested rule structure:
+            -Box
+                - margin
+                - padding
+                - width
+                - height
+                - display, float, position, left, top...
+            -Border
+            -Background
+            -Text
+            -Everything else
+
+
+    Production:
+        All .styl files will be compressed and concatenated into a single file
+        with the exception of images.css which should load separately
+        Maximum compression recommended
+
+
+    TODO:
+        Take out unessisary rules from normalize or even take it out completly
+*/
+
+
+
+
+
+
+
+// Non CSS - Stylus specific functions/mixins and variables
+@import 'nib';
+@import 'imports/variables';
+@import 'imports/mixins';
+
+// Base styles
+@import 'imports/normalize';
+@import 'imports/base';
+
+// layout styles
+@import 'imports/layout';
+
+// modules specific styles
+@import 'imports/module';
+
+// state overrides
+@import 'imports/state';

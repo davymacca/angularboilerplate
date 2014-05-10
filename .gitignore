@@ -1,0 +1,10 @@
+#
+# Angular Boilerplate ignores
+#
+
+# ignore the assets folder
+/app/assets
+
+# ignore the node_modules from grunt and bower
+node_modules
+bower_components
