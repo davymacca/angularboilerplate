@@ -5,12 +5,8 @@
 
 
 
-## Setup ##
------------
 
-
-### This project requires Node and Grunt ###
-----------------------
+**This project requires Node and Grunt**
 
 
 1. [Node.js] (http://nodejs.org/) is used for the building of the project. Version 0.8 or higher should work.
@@ -18,8 +14,7 @@
 
 
 
-
-** Setup the project: **
+### Setup ###
 
 ```shell
 $ npm install
@@ -28,7 +23,7 @@ $ npm install
 
 
 
-** Start the project in: **
+**Start the project for dev**
 
 ```shell
 $ grunt
@@ -38,11 +33,9 @@ $ grunt server:dev
 
 
 
-** To run the project locally with dist files: **
+**Run the project locally with dist files**
 
 ```shell
 $ grunt build
 $ grunt server:dist
 ```
-
-
